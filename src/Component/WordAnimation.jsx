@@ -1,5 +1,5 @@
 import React from 'react';
-import './WordAnimation.css'; // Import the CSS file
+import './wordanimation.css'; // Import the CSS file
 
 const WordAnimation = () => {
   return (
