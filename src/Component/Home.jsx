@@ -3,13 +3,15 @@ import WordAnimation from './WordAnimation';
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: 'rgb(10, 0, 27)', minHeight: '100vh'}}>
-      <span className="flex justify-end items-center py-4">
-        <button className="px-4 py-2 bg-white text-black rounded hover:bg-gray-300 transition" aria-label="Download Resume">
-          Resume
-        </button>
+    <div style={{ backgroundColor: 'rgb(10, 0, 27)', minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <span className="flex justify-end items-center py-4 absolute top-0 right-0">
+         <a href="https://drive.google.com/file/d/1kKiRvuCrYNN-8yId4Vc7ngYTf0D-kGs9/view?usp=sharing" className="no-underline" style={{ textDecoration: 'none', border: 'none' }}>
+            <button className="px-4 py-2 bg-white text-black rounded mx-3 hover:bg-gray-300 transition" aria-label="Download Resume">
+            Resume
+          </button>
+        </a>
       </span>
-      <div className='h-screen w-full flex justify-center items-center'>
+      <div className='w-full flex justify-center items-center'>
         <div className='h-60 w-1/2 text-center'>
           <div className='text-white'>
             <WordAnimation />

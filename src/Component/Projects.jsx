@@ -10,17 +10,17 @@ const Projects = () => {
         {/* Project 1 */}
         <div className='bg-white shadow-lg rounded-lg p-5 w-80'>
           <img
-            src='https://via.placeholder.com/150'
-            alt='Project 1'
+            src=''
             className='w-full h-40 object-cover rounded-t-lg'
           />
-          <h2 className='text-xl font-bold mt-5'>Project 1</h2>
+          <h2 className='text-xl font-bold mt-5'>ChatHub - A Video Chat Application</h2>
           <p className='text-gray-600 mt-2'>
-            A platform where users can manage their daily tasks efficiently. Built with React and Firebase.
+          Video calling web application built using modern technologies like React.js (with Vite), Node.js, and the WebRTC library. This project enables server connections to facilitate real-time communication between users within a shared lobby environment.
           </p>
           <div className='logo-div'>
             <a
-              href='https://github.com/your-username/project1'
+              href='https://github.com/Nayanshree28/Video-chat-application'
+              className='link-tag'
             >
               <img src={githubLogo} alt='GitHub' className='img-div' />
             </a>
@@ -38,14 +38,12 @@ const Projects = () => {
           <p className='text-gray-600 mt-2'>
             A blogging platform built using Next.js and MongoDB for users to write and share articles easily.
           </p>
-          <div className='mt-4 flex justify-center'>
+          <div className='logo-div'>
             <a
-              href='https://github.com/your-username/project2' // Replace with your GitHub link
-              target='_blank'
-              rel='noopener noreferrer'
-              className=''
+              href='' // Replace with your GitHub link
+              className='link-tag'
             >
-              <img src={githubLogo} alt='GitHub' className='w-8 h-8 rounded-full'/>
+              <img src={githubLogo} alt='GitHub' className='img-div'/>
             </a>
           </div>
         </div>
@@ -61,13 +59,12 @@ const Projects = () => {
           <p className='text-gray-600 mt-2'>
             A recipe-sharing app built with React and Firestore, allowing users to browse and save recipes.
           </p>
-          <div className='mt-4 flex justify-center'>
+          <div className='logo-div'>
             <a
-              href='https://github.com/your-username/project3' // Replace with your GitHub link
-              target='_blank'
-              rel='noopener noreferrer'
+              href='' // Replace with your GitHub link
+              className='link-tag'
             >
-              <img src={githubLogo} alt='GitHub' className='w-8 h-8' />
+              <img src={githubLogo} alt='GitHub' className='img-div' />
             </a>
           </div>
         </div>
@@ -83,13 +80,12 @@ const Projects = () => {
           <p className='text-gray-600 mt-2'>
             An e-commerce platform built using the MERN stack, featuring user authentication and payment integration.
           </p>
-          <div className='mt-4 flex justify-center'>
+          <div className='logo-div'>
             <a
-              href='https://github.com/your-username/project4' // Replace with your GitHub link
-              target='_blank'
-              rel='noopener noreferrer'
+              href='' // Replace with your GitHub link
+              className='link-tag'
             >
-              <img src={githubLogo} alt='GitHub' className='w-8 h-8' />
+              <img src={githubLogo} alt='GitHub' className='img-div' />
             </a>
           </div>
         </div>
@@ -105,13 +101,12 @@ const Projects = () => {
           <p className='text-gray-600 mt-2'>
             A portfolio website built with HTML, CSS, and JavaScript showcasing a developer's skills and projects.
           </p>
-          <div className='mt-4 flex justify-center'>
+          <div className='logo-div'>
             <a
               href='https://github.com/your-username/project5' // Replace with your GitHub link
-              target='_blank'
-              rel='noopener noreferrer'
+              className='link-tag'
             >
-              <img src={githubLogo} alt='GitHub' className='w-8 h-8' />
+              <img src={githubLogo} alt='GitHub' className='img-div' />
             </a>
           </div>
         </div>
@@ -127,13 +122,12 @@ const Projects = () => {
           <p className='text-gray-600 mt-2'>
             A personal finance tracking app built using React and Firebase to help users manage their budgets effectively.
           </p>
-          <div className='mt-4 flex justify-center'>
+          <div className='logo-div'>
             <a
               href='https://github.com/your-username/project6' // Replace with your GitHub link
-              target='_blank'
-              rel='noopener noreferrer'
+               className='link-tag'
             >
-              <img src={githubLogo} alt='GitHub' className='w-8 h-8' />
+              <img src={githubLogo} alt='GitHub' className='img-div' />
             </a>
           </div>
         </div>
