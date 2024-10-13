@@ -1,6 +1,5 @@
 import React from 'react';
 import WordAnimation from './WordAnimation';
-import './Wave.css'; 
 
 const Home = () => {
   return (
